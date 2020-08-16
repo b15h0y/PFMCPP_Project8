@@ -1,10 +1,10 @@
 #pragma once
 
-#include "Vehicle.h"
 #include <vector>
 #include <algorithm>
 
 struct HighwayPatrol;
+struct Vehicle;
 struct Highway
 {
     void addVehicle(Vehicle* v);

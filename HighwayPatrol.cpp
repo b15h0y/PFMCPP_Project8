@@ -33,11 +33,11 @@ void HighwayPatrol::scanHighway(Highway* h)
 
 void HighwayPatrol::pullOver( Vehicle* v, bool willArrest, Highway* h )
 {
-    std::string typeName;
     std::cout << "\n\n";
     std::cout << name << ": vehicle is traveling " << v->speed - h->speedLimit << " miles per hour over the speed limit" << std::endl;
     if( willArrest )
     {
+        std::string typeName;
         //print the vehicle type in this std::cout between "THE [" and "] PULL". 
         if (dynamic_cast<Car*>(v))
         {

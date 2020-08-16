@@ -9,7 +9,7 @@ struct SemiTruck : Vehicle
     SemiTruck& operator=(const SemiTruck&);
     ~SemiTruck() override;    
 
-    void turnFrontLights();
+    void toggleFrontLights(bool);
     void pullOver();
 
 };

@@ -8,9 +8,10 @@ SemiTruck::~SemiTruck() = default;
 SemiTruck::SemiTruck(const SemiTruck&) = default;
 SemiTruck& SemiTruck::operator = (const SemiTruck&) = default;
 
-void SemiTruck::turnFrontLights()
+void SemiTruck::toggleFrontLights( bool state_)
 {
-    std::cout<< "[ Info ] SemiTruck Front Lights : ON \n" << std::endl;
+    std::string status = state_ ? "ON" : "OFF";
+    std::cout<< "[ Info ] SemiTruck Front Lights : " << status << "\n" << std::endl;
 }
 
 void SemiTruck::pullOver()
