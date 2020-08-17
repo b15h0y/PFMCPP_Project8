@@ -3,6 +3,7 @@
 #include "Car.h"
 #include "SemiTruck.h"
 #include "Vehicle.h"
+#include <algorithm>
 
 #include <cassert>
 

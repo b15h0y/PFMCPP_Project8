@@ -1,7 +1,6 @@
 #pragma once
 
 #include <vector>
-#include <algorithm>
 
 struct HighwayPatrol;
 struct Vehicle;

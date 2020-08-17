@@ -1,6 +1,5 @@
 #include "SemiTruck.h"
-
-
+#include <iostream>
 
 SemiTruck::SemiTruck(const std::string& n) : Vehicle(n){}
 
@@ -8,9 +7,9 @@ SemiTruck::~SemiTruck() = default;
 SemiTruck::SemiTruck(const SemiTruck&) = default;
 SemiTruck& SemiTruck::operator = (const SemiTruck&) = default;
 
-void SemiTruck::toggleFrontLights( bool state_)
+void SemiTruck::toggleFrontLights( bool state)
 {
-    std::string status = state_ ? "ON" : "OFF";
+    std::string status = state ? "ON" : "OFF";
     std::cout<< "[ Info ] SemiTruck Front Lights : " << status << "\n" << std::endl;
 }
 
