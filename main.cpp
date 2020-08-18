@@ -126,10 +126,10 @@ int main()
     trucks.emplace_back("truck1");
     trucks.emplace_back("truck2");
 
-    motorcycles.emplace_back("truck1");
-    motorcycles.emplace_back("truck2");
-    motorcycles.emplace_back("truck3");
-    motorcycles.emplace_back("truck4");
+    motorcycles.emplace_back("motorcycle1");
+    motorcycles.emplace_back("motorcycle2");
+    motorcycles.emplace_back("motorcycle3");
+    motorcycles.emplace_back("motorcycle4");
     
     
     //add the cars, motorcycles and trucks to the highway using range-based for() loops: for( element : vec ) { ... }
